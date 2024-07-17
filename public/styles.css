@@ -8,7 +8,7 @@ body{
   }
   h1{
     margin: 40px auto;
-    color: #ff0aa7;
+    color: hsl(165, 87%, 44%);
     text-align: center;
   }
   ul{
@@ -21,7 +21,7 @@ body{
     margin: 10px auto;
   }
   li h4{
-    color: #ff0aa7;
+    color: hsl(165, 87%, 44%);
     margin: 0;
     text-transform: capitalize;
   }
@@ -58,15 +58,22 @@ body{
   button{
     color: white;
     border: 0;
-    background: #ff0aa7;
+    background: hsl(165, 87%, 44%);
     padding: 6px;
     min-width: 80px;
     border-radius: 4px;
   }
-  footer a{
+  footer p{
     text-align: center;
     display: block;
     color: #999;
     margin-top: 40px;
+    font-size: 0.7em;
+  }
+
+  footer a, footer p{
+    text-align: center;
+    display: block;
+    color: #999;
     font-size: 0.7em;
   }
